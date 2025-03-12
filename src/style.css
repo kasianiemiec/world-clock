@@ -1,7 +1,70 @@
-h1 {
-  color: goldenrod;
-  text-align: center;
+body {
+  background-color: #f7f3ff;
+  font-family: sans-serif;
 }
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  margin: 0 0 7px;
+  font-size: 28px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: white;
+  padding: 30px;
+  margin: 60px auto;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  border-bottom: 1px dashed #9a9999;
+  padding: 30px 0;
+}
+
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  font-weight: lighter;
+}
+
+.date {
+  opacity: 0.7;
+  font-size: 15px;
+}
+
 footer {
   text-align: center;
+  opacity: 0.7;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
 }
