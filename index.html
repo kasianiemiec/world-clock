@@ -3,14 +3,42 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World clock</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <h1>World clock</h1>
+    <div class="container">
+      <h1>World clocks</h1>
+      <select>
+        <option value="">Select a city...</option>
+        <option value="">New York</option>
+        <option value="">Athens</option>
+        <option value="">London</option>
+      </select>
+      <div class="city">
+        <h2>Los Angeles</h2>
+        <div class="date">August 15th 2024</div>
+        <div class="time">01:48:15 AM</div>
+      </div>
+      <div class="city">
+        <h2>Sydney</h2>
+        <div class="date">August 15th 2024</div>
+        <div class="time">01:48:15 AM</div>
+      </div>
+    </div>
     <footer>
       This project was coded by Kasia Niemiec and is open sourced on
-      <a href="">Github</a> and hosted on <a href="">Netlify.</a>
+      <a href="https://github.com/kasianiemiec/world-clock" target="_blank"
+        >Github</a
+      >
+      and hosted on
+      <a
+        href="https://extraordinary-profiterole-b889a0.netlify.app/"
+        target="_blank"
+        >Netlify.</a
+      >
     </footer>
     <script src="src/script.js"></script>
   </body>
