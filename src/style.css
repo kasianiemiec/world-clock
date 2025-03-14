@@ -68,3 +68,11 @@ footer {
 a {
   text-decoration: none;
 }
+@media (max-width: 760px) {
+  h1 {
+    font-size: 30px;
+  }
+  .time {
+    font-size: 26px;
+  }
+}
